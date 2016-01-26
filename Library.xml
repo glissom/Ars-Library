@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="viewLibrary.xsl"?>	
+<Library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="library.xsd">
+	<Spell>
+		<title></title>
+		<level></level>
+		<technique></technique>
+		<form></form>
+		<range></range>
+		<duration></duration>
+		<target></target>
+		<description></description>
+		<guideline></guideline>
+		<source></source> 
+		<author></author>
+	</Spell>
+</Library>

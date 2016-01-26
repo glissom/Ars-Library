@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<?xml-stylesheet type="text/xsl" href="viewLibrary.xsl"?>
+-->
+
+<?xml-stylesheet type="text/css" href="library.css"?>
+
+<Library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="library.xsd">
+	<libraryname>Test Library</libraryname>
+	<spell>
+		<title>Doublet of Impenetrable Silk</title>
+		<level>15</level>
+		<technique>Muto</technique>
+		<form>Animal</form>
+		<range>Touch</range>
+		<duration>Sun</duration>
+		<target>Individual</target>
+		<description>Change an item made of animal material - silk, wool, or leather - so it cannot be cut or penetrated by weapons. A simple cloth doublet becomes the equilavent of armour with no Load and a +3 Soak bonus. Armour made of quilted material or any kind of leather improves its Protection by an additional +3. The magic does not make the armour better at absorbing shock, so this +3 bonus is the limit that can be bestowed without changing the material into something completly different. At the storyguide's option, the bonus given by this spell may not apply against strictly blunt weapons like clubs and staves.</description>
+		<guideline>Base 4, +1 Touch, +2 Sun</guideline>
+		<source>
+			<booktitle>Ars Magica Core Rulebook</booktitle>
+			<pagenumber>118</pagenumber>
+		</source>
+		<author>unknown</author>
+	</spell>
+	<spell>
+		<title>Circle of Beast Warding</title>
+		<level>5</level>
+		<technique>Rego</technique>
+		<form>Animal</form>
+		<range>Touch</range>
+		<duration>Ring</duration>
+		<target>Circle</target>
+		<description>The caster inscribes a circle that no normal beast will cross.</description>
+		<guideline>Base 2, +1 Touch, +2 Ring</guideline>
+		<source>
+			<booktitle>Ars Magica Core Rulebook</booktitle>
+			<pagenumber>120</pagenumber>
+		</source>
+		<author>unknown</author>
+	</spell>
+</Library>

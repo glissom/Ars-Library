@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="htp://www.w3.org/2001/XMLSchema">
+
+<xs:annotation>
+  <xs:documentation xml:lang="en-AU">
+    A simple XML document for handling Ars Magica Spells
+    For AM 5th edition 
+  </xs:documentation>	
+</xs:annotation>
+
+<xs:element name="Library">
+<xs:complextype>
+  <xs:element name="libraryname" type="xs:string">
+  <xs:element name="spell" type="spelltype">
+</xs:complextype>
+
+
+
+<xs:complextype name="spelltype">
+  <xs:all>
+	<xs:element name="title" type="xs:string"/>
+	<xs:element name="level" type="xs:integer"/>
+	<xs:element name="technique" type="xs:string"/>
+	<xs:element name="form" type="xs:string"/>
+	<xs:element name="range" type="xs:string"/> 
+	<xs:element name="duration" type="xs:string"/> 
+	<xs:element name="target" type="xs:string"/>  
+	<xs:element name="description" type="xs:string"/> 
+	<xs:element name="guideline" type="xs:string"/> 
+	<xs:element name="source"> 
+	  <xs:complextype>
+	    <xs:choice>
+	      <xs:element name="book" type="booktype"/>
+	      <xs:element name="chronicle" type="xs:string"/>
+	    </xs:choice>
+	  <xs:complextype>
+	</xs:element>
+	<xs:element name="author" type="xs:string" default="unknown"/>
+    </xs:all>
+</xs:complextype>
+
+<xs:complextype name="booktype">
+  <xs:sequence>
+    <xs:element name="booktitle" type="xs:string"/>
+    <xs:element name="pagenumber" type="xs:integer"/>
+  </xs:sequence>
+</xs:complextype>
+
+
+
+
